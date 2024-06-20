@@ -8,19 +8,28 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   :root {
-    font-size: 65.5%;
+    font-size: 70.5%;
   }
 
   body {
-    background-color: ${props => props.theme.COLORS.BACKGROUND_900};
+    background-color: ${props => props.theme.COLORS.BEIGE};
     display: flex;
     flex-direction: column;
     align-items: center;
+    width:80vw;
+    left:10vw;
+    position:fixed;
+
   }
 
   body, input, h1, text-area, button {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    color: ${props => props.theme.COLORS.TEXT_500}
+    color: ${props => props.theme.COLORS.WHITE}
+  }
+  a, p {
+   font-weight: 600;
+   font-family: "Roboto", sans-serif;
+   color: ${props => props.theme.COLORS.TEXT_500}
   }
 `;

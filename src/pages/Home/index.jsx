@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { HomeContainer } from "./styles"
 import {Tabs, Box, Tab, Typography} from '@mui/material';
+import Header from '../../components/Header';
 
 export function Home() {
     const [value, setValue] = React.useState(0);
@@ -11,6 +12,7 @@ export function Home() {
   
   return ( 
     <HomeContainer>
+      <Header/>
       <Typography variant='h2'>Julia Castro</Typography>
       <Typography variant='h5'>Software Engineer</Typography>
       <Typography variant='h4'>Me conheça</Typography>

@@ -1,5 +1,7 @@
 export const defaultTheme = {
     COLORS: {
+      GREEN: "#18aea3",
+      BEIGE: "#f4eee0",
       BACKGROUND_900: "#5A639C",
       BACKGROUND_800: "#5C469C",
       BACKGROUND_700: "#1D267D",
